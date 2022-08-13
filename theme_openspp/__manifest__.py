@@ -1,16 +1,14 @@
-# # -*- coding: utf-8 -*-
 {
-    'name': "OpenSPP Theme",
-    'author': "OpenSPP.org",
-    'website': "https://openspp.org/",
-    'category': 'Theme',
-    'version': '0.3',
+    "name": "OpenSPP Theme",
+    "author": "OpenSPP.org",
+    "website": "https://openspp.org/",
+    "category": "Theme",
+    "version": "15.0.0.0.1",
     "depends": ["base"],
-    "license": "OPL-1",
+    "license": "AGPL-3",
     "assets": {
         "web._assets_primary_variables": [
             "theme_openspp/static/src/scss/primary_variables.scss"
-
         ],
         "web.assets_backend": [
             "theme_openspp/static/src/scss/assets_backend.scss",
