@@ -1,8 +1,8 @@
 # # -*- coding: utf-8 -*-
 {
     'name': "OpenSPP Theme",
-    'author': "Newlogic",
-    'website': "https://newlogic.com/",
+    'author': "OpenSPP.org",
+    'website': "https://openspp.org/",
     'category': 'Theme',
     'version': '0.3',
     "depends": ["base"],
