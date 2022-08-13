@@ -6,7 +6,6 @@
     'category': 'Theme',
     'version': '0.3',
     "depends": ["base"],
-    "installable": True,
     "license": "OPL-1",
     "assets": {
         "web._assets_primary_variables": [
@@ -17,5 +16,8 @@
             "theme_openspp/static/src/scss/assets_backend.scss",
             "theme_openspp/static/src/scss/dynamic_dasbhoard.scss",
         ],
-    }
+    },
+    "application": True,
+    "installable": True,
+    "auto_install": False,
 }
