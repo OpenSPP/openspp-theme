@@ -1,11 +1,13 @@
 {
     "name": "OpenSPP Theme",
     "author": "OpenSPP.org",
-    "website": "https://openspp.org/",
+    "website": "https://github.com/openspp-project/openspp-theme",
     "category": "Theme",
     "version": "15.0.0.0.1",
     "depends": ["base"],
     "license": "AGPL-3",
+    "development_status": "Beta",
+    "maintainers": ["jeremi", "gonzalesedwin1123"],
     "assets": {
         "web._assets_primary_variables": [
             "theme_openspp/static/src/scss/primary_variables.scss"
