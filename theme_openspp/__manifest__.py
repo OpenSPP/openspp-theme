@@ -4,7 +4,7 @@
     "website": "https://github.com/openspp/openspp-theme",
     "category": "Theme",
     "version": "15.0.0.0.1",
-    "depends": ["base"],
+    "depends": ["web"],
     "license": "AGPL-3",
     "development_status": "Beta",
     "maintainers": ["jeremi", "gonzalesedwin1123"],
@@ -15,6 +15,7 @@
         "web.assets_backend": [
             "theme_openspp/static/src/scss/assets_backend.scss",
             "theme_openspp/static/src/scss/dynamic_dasbhoard.scss",
+            "theme_openspp/static/src/js/basic_fields.js",
         ],
     },
     "application": True,
