@@ -22,7 +22,7 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[theme_openspp](theme_openspp/) | 15.0.0.0.1 | [![jeremi](https://github.com/jeremi.png?size=30px)](https://github.com/jeremi) [![gonzalesedwin1123](https://github.com/gonzalesedwin1123.png?size=30px)](https://github.com/gonzalesedwin1123) | OpenSPP Theme
+[theme_openspp](theme_openspp/) | 15.0.0.0.0 | [![jeremi](https://github.com/jeremi.png?size=30px)](https://github.com/jeremi) [![gonzalesedwin1123](https://github.com/gonzalesedwin1123.png?size=30px)](https://github.com/gonzalesedwin1123) | OpenSPP Theme
 
 [//]: # (end addons)
 
