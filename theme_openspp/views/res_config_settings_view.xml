@@ -1,0 +1,43 @@
+<odoo>
+    <record id="res_config_settings_view_form_inherit_spp_theme" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.spp.theme</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="10" />
+        <field name="inherit_id" ref="base.res_config_settings_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div
+                    class="app_settings_block"
+                    data-string="OpenSPP Theme"
+                    string="OpenSPP Theme"
+                    data-key="theme_openspp"
+                >
+                    <h2>Login Interface</h2>
+                    <div class="row mt16 o_settings_container">
+                        <div class="col-lg-6 o_setting_box">
+                            <div class="o_setting_left_pane">
+                                <field name="show_login_user_pass" />
+                            </div>
+                            <div class="o_setting_right_pane">
+                                <label for="show_login_user_pass" />
+                                <div class="text-muted">
+                                    Enable or disable the username and password fields in the login interface
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="openspp_theme_config_settings_action" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_id" ref="res_config_settings_view_form_inherit_spp_theme" />
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'theme_openspp'}</field>
+    </record>
+</odoo>

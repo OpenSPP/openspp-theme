@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="theme_openspp.login" inherit_id="web.login" name="Newlogic Custom Login" priority="100">
+        <xpath expr="//button[@type='submit']" position="after">
+            <span>XXXXXX</span>
+        </xpath>
+        <!-- <xpath expr="//div[@hasclass='field-login']" position="before">
+            <t t-if="show_login_user_pass">
+                <div class="form-group field-login">
+                    <span>EmailX</span>
+                </div>
+            </t>
+            <t t-else="">
+                <div class="form-group field-login">
+                    <label for="login">Email</label>
+                    <input
+                        type="text"
+                        placeholder="Email"
+                        name="login"
+                        t-att-value="login"
+                        id="login"
+                        t-attf-class="form-control #{'form-control-sm' if form_small else ''}"
+                        required="required"
+                        autofocus="autofocus"
+                        autocapitalize="off"
+                    />
+                </div>
+            </t>
+        </xpath> -->
+    </template>
+</odoo>
