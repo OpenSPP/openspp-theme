@@ -8,6 +8,10 @@
     "license": "AGPL-3",
     "development_status": "Beta",
     "maintainers": ["jeremi", "gonzalesedwin1123"],
+    "data": [
+        "views/ir_ui_menu.xml",
+        "views/res_config_settings_views.xml",
+    ],
     "assets": {
         "web._assets_primary_variables": [
             "theme_openspp/static/src/scss/primary_variables.scss"
@@ -16,6 +20,7 @@
             "theme_openspp/static/src/scss/assets_backend.scss",
             "theme_openspp/static/src/scss/dynamic_dasbhoard.scss",
             "theme_openspp/static/src/js/basic_fields.js",
+            "theme_openspp/static/src/js/user_menu_items.esm.js",
         ],
     },
     "application": True,
